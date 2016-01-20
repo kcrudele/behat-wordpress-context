@@ -12,11 +12,13 @@ It's useful for anyone who does highly customized WordPress implementations. The
 Given I have a "post" item with the title "My First Post" and the slug "my-first-post"
 ```
 
+
 ##### Replace the taxonomy terms for an individual post item or clear them completely
 
 ```
 Given the "post" item titled "My First Post" has the taxonomy "category" set to "uncategorized"
 ```
+
 
 ##### Create a new menu item within a given menu list in the WordPress database
 
@@ -24,11 +26,13 @@ Given the "post" item titled "My First Post" has the taxonomy "category" set to 
 Given I add a new menu item "Home" to the "Main" menu that links to "/home"
 ```
 
+
 ##### Create a new user or update an existing user in the WordPress database
 
 ```
 Given the "contributor" user "test_username" with the password "test_password" exists
 ```
+
 
 ##### Set meta values within custom metaboxes for individual post items
 
